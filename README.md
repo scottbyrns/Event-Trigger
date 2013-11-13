@@ -3,7 +3,7 @@ Event-Trigger
 
 Widget for broadcasting messages to LiveWidgets during DOM events on widget elements.
 
-'''html
+```html
 
 
 <button data-widget="event-trigger"
@@ -16,4 +16,4 @@ Widget for broadcasting messages to LiveWidgets during DOM events on widget elem
   
 </button>
 
-'''
+```
