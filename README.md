@@ -1,4 +1,19 @@
 Event-Trigger
 =============
 
-A Live Widget that copies a the value of the data-data attribute on a DOM element into a drag event on that DOM element to allow transfer of the value of data-data to the drop target of the drag event.
+Widget for broadcasting messages to LiveWidgets during DOM events on widget elements.
+
+'''html
+
+
+<button data-widget="event-trigger"
+        data-event="click"
+        data-message="element-was-clicked-by-user"
+        data-channel="navigation">
+        
+        
+        Click Me!
+  
+</button>
+
+'''
